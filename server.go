@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/http"
 
-  . "github.com/danielleknudson/email_worker/send"
+	. "github.com/danielleknudson/email_worker/send"
 
 	"github.com/gorilla/Schema"
 	"github.com/gorilla/mux"
@@ -24,7 +24,7 @@ func main() {
 
 func IndexController(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w,
-    `<!DOCTYPE html>
+		`<!DOCTYPE html>
       <head>
         <title>Test Go Server</title>
         <style>
